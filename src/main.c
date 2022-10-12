@@ -58,11 +58,11 @@ typedef struct InputState
 
 typedef struct GameState
 {
+    Position snake[TOTAL_GRID];
+    Position direction;
+    Position apple;
     unsigned long frame;
     int score;
-    Position snake[TOTAL_GRID];
-    Position apple;
-    Position direction;
 } GameState;
 
 #define NULL_POSITION (Position){-1, -1}
