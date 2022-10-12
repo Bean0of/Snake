@@ -42,14 +42,6 @@ typedef enum {
     SCREEN_DEAD
 } Screen;
 
-typedef enum {
-    INPUT_NULL,
-    INPUT_LEFT,
-    INPUT_RIGHT,
-    INPUT_UP,
-    INPUT_DOWN
-} InputBuffer;
-
 typedef struct Position
 {
     int x;
